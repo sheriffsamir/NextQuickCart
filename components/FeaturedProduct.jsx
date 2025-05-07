@@ -6,20 +6,26 @@ const products = [
   {
     id: 1,
     image: assets.girl_with_headphone_image,
-    title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    title: "Water Bottle",
+    description: "Fuel for the Fearless.",
   },
   {
     id: 2,
     image: assets.girl_with_earphone_image,
-    title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    title: "Memo Pad/Notebook",
+    description: "Highlighting the importance of every detail in storytelling.",
   },
   {
     id: 3,
     image: assets.boy_with_laptop_image,
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    title: "Mug",
+    description: "Sip the Story. Speak the Truth.",
+  },
+  {
+    id: 4,
+    image: assets.boy_with_laptop_image,
+    title: "Mug",
+    description: "Sip the Story. Speak the Truth.",
   },
 ];
 
