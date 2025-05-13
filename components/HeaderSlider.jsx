@@ -10,7 +10,7 @@ const HeaderSlider = () => {
       offer: "Limited Time Offer 10% Off",
       buttonText1: "Buy now",
       buttonText2: "Find more",
-      imgSrc: assets.header_headphone_image,
+      imgSrc: assets.header_shirt_image,
     },
     {
       id: 2,
@@ -18,15 +18,16 @@ const HeaderSlider = () => {
       offer: "Hurry up only few lefts!",
       buttonText1: "Shop Now",
       buttonText2: "Explore Deals",
-      imgSrc: assets.header_playstation_image,
+      imgSrc: assets.header_hoodie_image,
     },
     {
       id: 3,
-      title: "Power Meets Elegance - Outfit That Fit your Match is Here for you!",
+      title:
+        "Power Meets Elegance - Outfit That Fit your Match is Here for you!",
       offer: "Exclusive Deal 20% Off",
       buttonText1: "Order Now",
       buttonText2: "Learn More",
-      imgSrc: assets.header_macbook_image,
+      imgSrc: assets.header_mugs_image,
     },
   ];
 

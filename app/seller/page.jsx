@@ -12,7 +12,7 @@ const AddProduct = () => {
   const [files, setFiles] = useState([]);
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [category, setCategory] = useState("Earphone");
+  const [category, setCategory] = useState("Shirt");
   const [price, setPrice] = useState("");
   const [offerPrice, setOfferPrice] = useState("");
 
@@ -43,7 +43,7 @@ const AddProduct = () => {
         setFiles([]);
         setName("");
         setDescription("");
-        setCategory("Earphone");
+        setCategory("Shirt");
         setPrice("");
         setOfferPrice("");
       } else {

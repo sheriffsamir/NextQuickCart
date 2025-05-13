@@ -17,7 +17,7 @@ const products = [
   },
   {
     id: 3,
-    image: assets.boy_with_laptop_image,
+    image: assets.girl_with_earphone_image,
     title: "Mug",
     description: "Sip the Story. Speak the Truth.",
   },
