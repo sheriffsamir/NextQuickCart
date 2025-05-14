@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logoo from "./logoo.svg";
 import search_icon from "./search_icon.svg";
 import user_icon from "./user_icon.svg";
 import cart_icon from "./cart_icon.svg";
@@ -38,7 +39,10 @@ import asus_laptop_image from "./asus_laptop_image.png";
 import projector_image from "./projector_image.png";
 import playstation_image from "./playstation_image.png";
 import girl_with_headphone_image from "./girl_with_headphone_image.png";
+import totebag_image from "./totebag_image.png";
 import girl_with_earphone_image from "./girl_with_earphone_image.png";
+import memo_image from "./memo_image.png";
+import flasks_image from "./flasks_image.png";
 import md_controller_image from "./md_controller_image.png";
 import sm_controller_image from "./sm_controller_image.png";
 import jbl_soundbox_image from "./jbl_soundbox_image.png";
@@ -52,6 +56,7 @@ import product_details_page_apple_earphone_image5 from "./product_details_page_a
 
 export const assets = {
   logo,
+  logoo,
   search_icon,
   user_icon,
   cart_icon,
@@ -91,7 +96,10 @@ export const assets = {
   projector_image,
   playstation_image,
   girl_with_headphone_image,
+  totebag_image,
   girl_with_earphone_image,
+  memo_image,
+  flasks_image,
   md_controller_image,
   sm_controller_image,
   jbl_soundbox_image,

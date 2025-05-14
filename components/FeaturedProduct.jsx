@@ -5,25 +5,19 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    image: assets.girl_with_headphone_image,
+    image: assets.totebag_image,
     title: "Water Bottle",
     description: "Fuel for the Fearless.",
   },
   {
     id: 2,
-    image: assets.girl_with_earphone_image,
+    image: assets.memo_image,
     title: "Memo Pad/Notebook",
     description: "Highlighting the importance of every detail in storytelling.",
   },
   {
     id: 3,
-    image: assets.girl_with_earphone_image,
-    title: "Mug",
-    description: "Sip the Story. Speak the Truth.",
-  },
-  {
-    id: 4,
-    image: assets.boy_with_laptop_image,
+    image: assets.flasks_image,
     title: "Mug",
     description: "Sip the Story. Speak the Truth.",
   },

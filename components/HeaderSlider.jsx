@@ -22,8 +22,7 @@ const HeaderSlider = () => {
     },
     {
       id: 3,
-      title:
-        "Power Meets Elegance - Outfit That Fit your Match is Here for you!",
+      title: "Fueled by facts & coffee!",
       offer: "Exclusive Deal 20% Off",
       buttonText1: "Order Now",
       buttonText2: "Learn More",
@@ -68,7 +67,11 @@ const HeaderSlider = () => {
                 </button>
                 <button className="group flex items-center gap-2 px-6 py-2.5 font-medium">
                   {slide.buttonText2}
-                  <Image className="group-hover:translate-x-1 transition" src={assets.arrow_icon} alt="arrow_icon" />
+                  <Image
+                    className="group-hover:translate-x-1 transition"
+                    src={assets.arrow_icon}
+                    alt="arrow_icon"
+                  />
                 </button>
               </div>
             </div>
