@@ -28,7 +28,7 @@ const Banner = () => {
       </div>
       <Image
         className="hidden md:block max-w-80"
-        src={assets.md_controller_image}
+        src={assets.sheet_image}
         alt="md_controller_image"
       />
       <Image

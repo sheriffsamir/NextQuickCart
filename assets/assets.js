@@ -44,6 +44,7 @@ import girl_with_earphone_image from "./girl_with_earphone_image.png";
 import memo_image from "./memo_image.png";
 import flasks_image from "./flasks_image.png";
 import md_controller_image from "./md_controller_image.png";
+import sheet_image from "./sheet_image.png";
 import sm_controller_image from "./sm_controller_image.png";
 import jbl_soundbox_image from "./jbl_soundbox_image.png";
 import hud_image from "./hud_image.png";
@@ -102,6 +103,7 @@ export const assets = {
   memo_image,
   flasks_image,
   md_controller_image,
+  sheet_image,
   sm_controller_image,
   jbl_soundbox_image,
   hud_image,
