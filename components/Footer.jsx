@@ -18,28 +18,21 @@ const Footer = () => {
 
         <div className="w-1/2 flex items-center justify-start md:justify-center">
           <div>
-            <h2 className="font-medium text-gray-900 mb-5">Company</h2>
+            <h2 className="font-medium text-gray-900 mb-5">About us</h2>
             <ul className="text-sm space-y-2">
-              <li>
-                <a className="hover:underline transition" href="#">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a className="hover:underline transition" href="#">
-                  About us
-                </a>
-              </li>
-              <li>
-                <a className="hover:underline transition" href="#">
-                  Contact us
-                </a>
-              </li>
-              <li>
-                <a className="hover:underline transition" href="#">
-                  Privacy policy
-                </a>
-              </li>
+              <p>
+                Strong, Reliable and Resilient A celebration of resilience Our
+                latest collection is more than just apparel—it's a tribute to
+                the strength, courage, and stories of journalists and
+                marginalized communities around the world. These designs are
+                inspired by their unwavering determination, their ability to
+                endure, and their spirit to rise unbroken despite the challenges
+                they face. Every piece in this collection reflects our
+                commitment to amplifying voices that matter and celebrating the
+                resilience of those who inspire change. Explore the line, wear
+                your support, and join us in honoring the unyielding spirit of
+                humanity
+              </p>
             </ul>
           </div>
         </div>
