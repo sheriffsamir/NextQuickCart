@@ -31,7 +31,7 @@ const Footer = () => {
                 commitment to amplifying voices that matter and celebrating the
                 resilience of those who inspire change. Explore the line, wear
                 your support, and join us in honoring the unyielding spirit of
-                humanity
+                humanity.
               </p>
             </ul>
           </div>
