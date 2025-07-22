@@ -1,7 +1,7 @@
 import React from "react";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
-import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaTiktok, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -63,7 +63,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-xl hover:text-blue-400 transition-colors transform hover:scale-110 duration-200"
               >
-                <FaTwitter />
+                <FaTiktok />
               </a>
               <a
                 href="https://facebook.com"
