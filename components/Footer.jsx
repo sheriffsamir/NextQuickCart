@@ -1,6 +1,7 @@
 import React from "react";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
+import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -37,7 +38,7 @@ const Footer = () => {
       <div className="flex justify-between px-6 md:px-16 lg:px-32 gap-10 py-14 border-b border-gray-500/30 text-gray-500">
         <div className="max-w-[500px] w-full flex flex-col items-start justify-start md:justify-center">
           <Image className="w-20 md:w-9" src={assets.logoo} alt="logoo" />
-          <ul className="text-sm space-y-2">
+          <ul className="text-base/6 space-y-2">
             "HumAngle" Step into the world of fearless journalism with every
             item you wear or carry.
             <p>
@@ -53,7 +54,33 @@ const Footer = () => {
             <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
             <div className="text-sm space-y-2">
               <p>+1-234-567-890</p>
-              <p>contact@greatstack.dev</p>
+              <p>contact @humanglemerch</p>
+            </div>
+            <div className="flex gap-4 mt-6">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl hover:text-blue-400 transition-colors transform hover:scale-110 duration-200"
+              >
+                <FaTwitter />
+              </a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl hover:text-blue-600 transition-colors transform hover:scale-110 duration-200"
+              >
+                <FaFacebookF />
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl hover:text-pink-500 transition-colors transform hover:scale-110 duration-200"
+              >
+                <FaInstagram />
+              </a>
             </div>
           </div>
         </div>
