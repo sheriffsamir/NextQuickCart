@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-4 mt-6">
               <a
-                href="https://twitter.com"
+                href="https://www.tiktok.com/@humanglemerch?_t=ZM-8yGOWWizA9A&_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl hover:text-blue-400 transition-colors transform hover:scale-110 duration-200"
@@ -66,7 +66,7 @@ const Footer = () => {
                 <FaTiktok />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/16MiqJAzNX/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl hover:text-blue-600 transition-colors transform hover:scale-110 duration-200"
@@ -74,7 +74,7 @@ const Footer = () => {
                 <FaFacebookF />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/humanglemerch?igsh=aXU4bHluaWx5bTFu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl hover:text-pink-500 transition-colors transform hover:scale-110 duration-200"
