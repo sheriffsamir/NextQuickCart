@@ -11,7 +11,6 @@ import twitter_icon from "./twitter_icon.svg";
 import box_icon from "./box_icon.svg";
 import product_list_icon from "./product_list_icon.svg";
 import menu_icon from "./menu_icon.svg";
-import arrow_icon from "./arrow_icon.svg";
 import increase_arrow from "./increase_arrow.svg";
 import decrease_arrow from "./decrease_arrow.svg";
 import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
@@ -70,7 +69,6 @@ export const assets = {
   box_icon,
   product_list_icon,
   menu_icon,
-  arrow_icon,
   increase_arrow,
   decrease_arrow,
   arrow_right_icon_colored,
