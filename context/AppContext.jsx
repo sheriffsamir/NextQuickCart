@@ -66,7 +66,7 @@ export const AppContextProvider = (props) => {
     const addToCart = async (itemId) => {
 
         if (!user) {
-            return toast('Please login',{
+            return toast('create account to add to cart',{
                 icon: '⚠️',
               })
         }
