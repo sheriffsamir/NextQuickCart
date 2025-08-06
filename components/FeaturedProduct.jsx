@@ -44,9 +44,17 @@ const FeaturedProduct = () => {
               <p className="text-sm lg:text-base leading-5 max-w-60">
                 {description}
               </p>
-              <button className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded">
-                Buy now <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
-              </button>
+              <a
+                href={"/all-products"}
+                className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded transition-colors hover:bg-orange-700"
+              >
+                Buy now{" "}
+                <Image
+                  className="h-3 w-3"
+                  src={assets.redirect_icon}
+                  alt="Redirect Icon"
+                />
+              </a>
             </div>
           </div>
         ))}
