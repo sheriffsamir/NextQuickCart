@@ -15,6 +15,7 @@ const AddProduct = () => {
   const [category, setCategory] = useState("Shirt");
   const [price, setPrice] = useState("");
   const [offerPrice, setOfferPrice] = useState("");
+  const [size, setSize] = useState("Small");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -26,6 +27,7 @@ const AddProduct = () => {
     formData.append("category", category);
     formData.append("price", price);
     formData.append("offerPrice", offerPrice);
+    formData.append("size", size); // Add size to formData
 
     for (let i = 0; i < files.length; i++) {
       formData.append("images", files[i]);
@@ -46,6 +48,7 @@ const AddProduct = () => {
         setCategory("Shirt");
         setPrice("");
         setOfferPrice("");
+        setSize("Small"); // Reset size to default
       } else {
         toast.error(data.message);
       }
@@ -166,6 +169,21 @@ const AddProduct = () => {
               value={offerPrice}
               required
             />
+          </div>
+          <div className="flex flex-col gap-1 w-32">
+            <label className="text-base font-medium" htmlFor="product-size">
+              Product Size
+            </label>
+            <select
+              id="product-size"
+              className="outline-none md:py-2.5 py-2 px-3 rounded border border-gray-500/40"
+              onChange={(e) => setSize(e.target.value)}
+              value={size}
+            >
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+            </select>
           </div>
         </div>
         <button
