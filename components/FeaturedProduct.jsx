@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
 
@@ -24,6 +24,8 @@ const products = [
 ];
 
 const FeaturedProduct = () => {
+  const [tooltipId, setTooltipId] = useState(null);
+
   return (
     <div className="mt-14">
       <div className="flex flex-col items-center">
@@ -33,19 +35,30 @@ const FeaturedProduct = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-14 mt-12 md:px-14 px-4">
         {products.map(({ id, image, title, description }) => (
-          <div key={id} className="relative group">
+          <div
+            key={id}
+            className="relative group"
+            onMouseEnter={() => setTooltipId(id)}
+            onMouseLeave={() => setTooltipId(null)}
+          >
             <Image
               src={image}
               alt={title}
               className="group-hover:brightness-75 transition duration-300 w-full h-auto object-cover"
             />
+            {/* Tooltip */}
+            {tooltipId === id && (
+              <div className="absolute top-2 left-2 z-20 bg-black bg-opacity-80 text-white text-xs rounded px-3 py-2 max-w-xs shadow-lg pointer-events-none">
+                {description}
+              </div>
+            )}
             <div className="group-hover:-translate-y-4 transition duration-300 absolute bottom-8 left-8 text-white space-y-2">
               <p className="font-medium text-xl lg:text-2xl">{title}</p>
               <p className="text-sm lg:text-base leading-5 max-w-60">
                 {description}
               </p>
               <a
-                href={"/all-products"}
+                href={`/product/${id}`}
                 className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded transition-colors hover:bg-orange-700"
               >
                 Buy now{" "}
