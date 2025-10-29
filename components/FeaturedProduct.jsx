@@ -6,8 +6,8 @@ const products = [
   {
     id: 1,
     image: assets.totebag_image,
-    title: "Water Bottle",
-    description: "Fuel for the Fearless.",
+    title: "Tote Bag",
+    description: "",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const products = [
   {
     id: 3,
     image: assets.flasks_image,
-    title: "Mug",
+    title: "flask",
     description: "Sip the Story. Speak the Truth.",
   },
 ];
