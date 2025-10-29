@@ -7,7 +7,7 @@ const products = [
     id: 1,
     image: assets.totebag_image,
     title: "Tote Bag",
-    description: "",
+    description: "This bag carries my chaos",
   },
   {
     id: 2,
