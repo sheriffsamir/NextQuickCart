@@ -37,9 +37,8 @@ const Footer = () => {
       </div>
       <div className="flex justify-between px-6 md:px-16 lg:px-32 gap-10 py-14 border-b border-gray-500/30 text-gray-500">
         <div className="max-w-[500px] w-full flex flex-col items-start justify-start md:justify-center">
-          <Image className="w-20 md:w-9" src={assets.logoo} alt="logoo" />
-          <ul className="text-base/6 space-y-2">
-            
+          <Image className="w-20 md:w-9 mb-4" src={assets.logoo} alt="logoo" />
+          <ul className="text-base/6 space-y-2 mt-2">
             <p>
               HumAngle Step into the world of fearless journalism with every
               item you wear or carry.
