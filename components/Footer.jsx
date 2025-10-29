@@ -40,7 +40,8 @@ const Footer = () => {
           <Image className="w-20 md:w-9 mb-4" src={assets.logoo} alt="logoo" />
           <ul className="text-base/6 space-y-2 mt-2">
             <p>
-              HumAngle Step into the world of fearless journalism with every
+              HumAngle
+              Step into the world of fearless journalism with every
               item you wear or carry.
             </p>
             <p>
