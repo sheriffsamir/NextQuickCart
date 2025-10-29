@@ -39,8 +39,11 @@ const Footer = () => {
         <div className="max-w-[500px] w-full flex flex-col items-start justify-start md:justify-center">
           <Image className="w-20 md:w-9" src={assets.logoo} alt="logoo" />
           <ul className="text-base/6 space-y-2">
-            HumAngle Step into the world of fearless journalism with every
-            item you wear or carry.
+            
+            <p>
+              HumAngle Step into the world of fearless journalism with every
+              item you wear or carry.
+            </p>
             <p>
               From bold tees to thoughtful notebooks, every piece supports the
               pursuit of truth, justice, and impactful storytelling across
