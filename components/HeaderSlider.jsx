@@ -12,7 +12,7 @@ const HeaderSlider = () => {
     },
     {
       id: 2,
-      title: "Next-Level Designe Starts Here - Discover Perfection Today!",
+      title: "Next-Level Design Starts Here - Discover Perfection Today!",
       offer: "Hurry up only few lefts!",
       imgSrc: assets.header_hoodie_image,
     },
@@ -55,8 +55,7 @@ const HeaderSlider = () => {
               <h1 className="max-w-lg md:text-[40px] md:leading-[48px] text-2xl font-semibold">
                 {slide.title}
               </h1>
-              <div className="flex items-center mt-4 md:mt-6 ">
-                </div>
+              <div className="flex items-center mt-4 md:mt-6 "></div>
             </div>
             <div className="flex items-center flex-1 justify-center">
               <Image
